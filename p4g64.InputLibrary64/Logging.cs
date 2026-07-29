@@ -1,5 +1,4 @@
 ﻿using p4g64.InputLibrary64.Configuration;
-// using Reloaded.Memory.SigScan.ReloadedII.Interfaces;
 using Reloaded.Mod.Interfaces;
 using System;
 using System.Collections.Generic;
