@@ -441,34 +441,6 @@ public unsafe sealed class Inputs : IInputHook
             keyboard);
     }
 
-    // /*
-    //  * Keep this helper if consumers or later keyboard code need to decompose
-    //  * a combined mask. It assumes every Input value is a single bit.
-    //  */
-    // private static System.Collections.Generic.List<Input> GetInputsFromCombo(
-    //     int inputCombo,
-    //     bool keyboard)
-    // {
-    //     var foundInputs = new System.Collections.Generic.List<Input>();
-
-    //     foreach (Input possibleInput in Enum.GetValues(typeof(Input)))
-    //     {
-    //         int bit = (int)possibleInput;
-
-    //         if (bit == 0 || (inputCombo & bit) == 0)
-    //             continue;
-
-    //         if (keyboard && possibleInput == Input.Circle)
-    //             foundInputs.Add(Input.Cross);
-    //         else if (keyboard && possibleInput == Input.Cross)
-    //             foundInputs.Add(Input.Circle);
-    //         else
-    //             foundInputs.Add(possibleInput);
-    //     }
-
-    //     return foundInputs;
-    // }
-
     [UnmanagedFunctionPointer(CallingConvention.Winapi)]
     private delegate void KeyboardMaskFunction(
         int currentInput);
