@@ -507,4 +507,4 @@ rirurin, for the original Input Library.
 
 ## License
 
-See the repository's license information for usage and redistribution terms.
+MIT License. See the repository's license information for more details regarding usage and redistribution terms.
