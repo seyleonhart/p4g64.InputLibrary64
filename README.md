@@ -59,7 +59,7 @@ Install this mod through Reloaded-II like any other mod, then enable it for Pers
 
 Because this is a dependency library, it will normally be installed automatically or listed as a requirement by another mod.
 
-There are no user-configurable settings.
+There are no user-configurable settings. The Debug toggle is there, but perhaps it will not do anything. It's just a redundant setting I cannot entirely disable yet.
 
 ## Using the library in another mod
 
