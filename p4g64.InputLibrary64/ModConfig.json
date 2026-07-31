@@ -2,7 +2,7 @@
   "ModId": "p4g64.InputLibrary64",
   "ModName": "Persona 4 Golden Input Library 64",
   "ModAuthor": "seyleonhart",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.0.1",
   "ModDescription": "Provides keyboard and controller input events for the 64-bit version of Persona 4 Golden.",
   "ModDll": "p4g64.InputLibrary64.dll",
   "ModIcon": "Preview.png",
