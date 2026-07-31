@@ -97,6 +97,9 @@ public class Mod : ModBase // <= Do not Remove.
         _utils = new Logging(_configuration, _logger);
         _inputs = new Inputs(_hooks, _configuration, _utils); // IInputHook implementation
         _modLoader.AddOrReplaceController<IInputHook>(_owner, _inputs);
+
+        _logger.WriteLine($"[{_modConfig.ModId}] Registered IInputHook controller.");
+        
     }
 
     #region Standard Overrides
